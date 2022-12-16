@@ -3,10 +3,10 @@ import{Greeter} from './greeter';
 class LoudGreeter extends Greeter{
     private extra:string = "!"; 
 
-    constructor(greeting:string, extra:string){
+    constructor(greeting:string){
     super(greeting);
 
-    this.extra = extra ;
+    
     this.greeting = greeting
     }
 
